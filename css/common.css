@@ -22,6 +22,13 @@ ol,ul{list-style-type:none}
 .topNavLinks ul{display:flex;justify-content:flex-end}
 .topNavLinks ul li a{font-weight:700;font-size:16px;line-height:22px;color:#1b1718;margin:0 10px;position:relative}
 .topNavLinks ul li a::after{content:"";display:inline-block;width:7px;height:7px;border:solid #b20000;border-width:0 2px 2px 0;margin:-1px 0 0 7px;vertical-align:middle;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.topNavLinks ul li ul.sub-menu{display:none;position:absolute;background-color:#b20000;z-index:2;box-shadow:1px 1px 4px 0 rgb(0 0 0 / 15%)}
+.topNavLinks ul li:last-child ul.sub-menu{right:0}
+.topNavLinks ul li:hover ul.sub-menu{display:block;}
+.topNavLinks ul li:hover ul.sub-menu li{border-bottom: solid 1px #bfbfbf;padding: 5px;}
+.topNavLinks ul li:hover ul.sub-menu li:last-child{border-bottom:0;}
+.topNavLinks ul li:hover ul.sub-menu li a{color:#fff;}
+.topNavLinks ul li ul.sub-menu li a::after{display: none;}
 .topLMenu,.topNavLinks,.topRmenu{flex:1}
 .trending_navBar{background:#b20000;box-shadow:0 4px 4px rgba(0,0,0,.0779338);min-height:45px;display:flex;align-items:center}
 .trending_navBar ul{display:flex;justify-content:center;align-items:center}
