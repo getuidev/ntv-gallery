@@ -102,6 +102,9 @@ ol,ul{list-style-type:none}
 [data-pagination] li.current{background:#b20000;color:#fff}
 [data-pagination] li.current a{color:#fff}
 [data-pagination] .disabled,[data-pagination] [disabled],[data-pagination] [hidden]{opacity:.5;pointer-events:none}
+.breadcrumb{margin-bottom:10px}
+.breadcrumb li p{display:inline-block;margin:0;color:#fff;font-size:14px;line-height:20px;padding:0;text-transform:capitalize;font-weight:400;}
+.breadcrumb li a{color:#b20000}
 @media(max-width:767px){
 .adsCont{min-height:270px;}
 .container-fluid{margin-top:100px}
@@ -148,4 +151,6 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .categorypage_wrapper .ntv_gallery figure{width:100%;margin-right:0;}
 [data-pagination] a{font-size:14px}
 [data-pagination] ul li{width:30px;height:30px;border-radius:30px}
+.breadcrumb{white-space:nowrap;overflow-x:auto;overflow-y:hidden}
+.breadcrumb::-webkit-scrollbar{display: none;}
 }
