@@ -159,7 +159,7 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .menuNavigation .listItems li span{border-color:#0b0b0d}
 .leftSidebar,.rightSidebar{width:100%}
 .stackCarousel_Wrapper .swiper-slide figcaption h3 a{font-size:18px;line-height:24px}
-.webStory_Wrapper,.tags_wrapper{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.webStory_Wrapper{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .webStory_Wrapper figure{width:45.2%;flex:0 0 auto;margin-right:3%}
 .trending_navBar ul::-webkit-scrollbar,.webStory_Wrapper::-webkit-scrollbar{display:none}
 .ntv_gallery{display:flex;flex-wrap:wrap}
@@ -172,7 +172,7 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .categorypage_wrapper .ntv_gallery figure{width:100%;margin-right:0;}
 [data-pagination] a{font-size:14px}
 [data-pagination] ul li{width:30px;height:30px;border-radius:30px}
-.breadcrumb{white-space:nowrap;overflow-x:auto;overflow-y:hidden}
+.breadcrumb,.tags_wrapper ul{white-space:nowrap;overflow-x:auto;overflow-y:hidden}
 .breadcrumb::-webkit-scrollbar,.tags_wrapper::-webkit-scrollbar{display: none;}
 .fixed-social{position:fixed;right:0;top:200px;box-shadow:-5px 4px 10px 0 rgba(0,0,0,.2);width:51px;height:44px;background-color:#5b5b5b;border-radius:8px 0 0 8px;z-index:2;display:flex;justify-content:center;align-items:center;cursor:pointer;-webkit-backface-visibility:hidden}
 .fixed-social #share{width:30px;height:30px;fill:#fff;display:flex}
