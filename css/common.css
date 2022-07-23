@@ -38,7 +38,7 @@ ol,ul{list-style-type:none}
 .rightSidebar{width:300px;float:right}
 .rightSidebar .adsCont{min-height:270px}
 .common_heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px;border-bottom:2px solid #b20000}
-.common_heading h2{font-weight:700;font-size:16px;line-height:22px;color:#f4f7f9;-webkit-clip-path:polygon(5% 0,90% 0,85% 100%,0 100%);clip-path:polygon(5% 0,90% 0,85% 100%,0 100%);background:#b20000;padding:10px 40px 10px 25px}
+.common_heading h2,.common_heading h1{font-weight:700;font-size:16px;line-height:22px;color:#f4f7f9;-webkit-clip-path:polygon(5% 0,90% 0,85% 100%,0 100%);clip-path:polygon(5% 0,90% 0,85% 100%,0 100%);background:#b20000;padding:10px 40px 10px 25px}
 .commonNewsList_Wrapper figure{display:flex;justify-content:flex-start;margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed #979797}
 .commonNewsList_Wrapper figure:last-child{border-bottom:none}
 .commonNewsList_Wrapper figure .imgwrap{width:117px;margin-right:10px}
