@@ -64,7 +64,7 @@ ol,ul{list-style-type:none}
 .ntv_gallery figcaption .share{height:43px;max-height:0;overflow:hidden;opacity:0;-webkit-transition:max-height .15s ease-out .15s,opacity .15s ease-in;-moz-transition:max-height .15s ease-out .15s,opacity .15s ease-in;-ms-transition:max-height .15s ease-out .15s,opacity .15s ease-in;-o-transition:max-height .15s ease-out .15s,opacity .15s ease-in;transition:max-height .15s ease-out .15s,opacity .15s ease-in}
 .ntv_gallery figure:hover figcaption{-ms-transform:translateY(-50px);-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transition:all .15s ease-out;-moz-transition:all .15s ease-out;-ms-transition:all .15s ease-out;-o-transition:all .15s ease-out;transition:all .15s ease-out;margin-bottom:-55px}
 .ntv_gallery figure:hover figcaption .share{max-height:43px;opacity:.99;-webkit-transition:max-height .15s ease-out,opacity .15s ease-in .15s;-moz-transition:max-height .15s ease-out,opacity .15s ease-in .15s;-ms-transition:max-height .15s ease-out,opacity .15s ease-in .15s;-o-transition:max-height .15s ease-out,opacity .15s ease-in .15s;transition:max-height .15s ease-out,opacity .15s ease-in .15s}
-.ntv_gallery figcaption .share a{display:inline-block;margin:0 5px;width:30px;height:30px}
+.ntv_gallery figcaption .share a,.share a{display:inline-block;margin:0 5px;width:30px;height:30px}
 .ntv_gallery figcaption h3 a{font-weight:700;font-size:16px;line-height:28px}
 .gal-count{background:rgba(0,0,0,.53);display:inline-flex;padding:5px;position:absolute;align-items:center;bottom:0;left:0;font-weight:700;font-size:14px;line-height:18px;color:#fff;font-family:sans-serif}
 .gal-count::before{background-image:url(../images/photo.png);background-size:100%;width:20px;height:18px;display:inline-block;margin-right:5px;content:'';background-repeat:no-repeat}
@@ -104,7 +104,23 @@ ol,ul{list-style-type:none}
 [data-pagination] .disabled,[data-pagination] [disabled],[data-pagination] [hidden]{opacity:.5;pointer-events:none}
 .breadcrumb{margin-bottom:10px}
 .breadcrumb li p{display:inline-block;margin:0;color:#fff;font-size:14px;line-height:20px;padding:0;text-transform:capitalize;font-weight:400;}
-.breadcrumb li a{color:#b20000}
+.breadcrumb li a{color:#fff}
+.error_page img{width: 100%;}
+.published-time{font-style: normal;font-weight: 400;font-size: 12px;line-height: 18px;color: #fff;}
+.articleHD{font-weight: 700;font-size: 36px;line-height: 42px;color: #fff;margin-bottom:10px;}
+.articleBody .sub-title {color: #fff;font-size: 16px;line-height: 23px;}
+.author-box{display:flex;width:100%;justify-content:space-between;align-items:center;margin:10px 0;flex-wrap:wrap}
+.AuthorInfo{color:#fff;font-weight:400;font-size:12px}
+.AuthorInfo a{color:#fff}
+.author-box .share{display: flex;align-items: center;}
+.fixed-social{display:none}
+.photo_summary .photo_wrap{margin-bottom:20px}
+.photo_summary .photo_wrap figure{position:relative;width:100%;text-align:center}
+.photo_summary .photo_wrap figure img{width: 100%;display: block;}
+.photo_summary .photo_wrap .photoCount{position:absolute;top:0;left:0;background:#b20000;color:#fff;font-size:16px;z-index:1;min-width:86px;height:46px;line-height:46px}
+.photo_summary .photo_wrap .photoCount span{font-size:27px;color:#fff;font-weight:700}
+.photo_summary .photo_wrap figcaption{background: #464646;padding:15px;}
+.photo_summary .photo_wrap figcaption h3{font-size:16px;line-height:23px;font-weight:400;text-align: left;}
 @media(max-width:767px){
 .adsCont{min-height:270px;}
 .container-fluid{margin-top:100px}
@@ -153,4 +169,8 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 [data-pagination] ul li{width:30px;height:30px;border-radius:30px}
 .breadcrumb{white-space:nowrap;overflow-x:auto;overflow-y:hidden}
 .breadcrumb::-webkit-scrollbar{display: none;}
+.fixed-social{position:fixed;right:0;top:200px;box-shadow:-5px 4px 10px 0 rgba(0,0,0,.2);width:51px;height:44px;background-color:#5b5b5b;border-radius:8px 0 0 8px;z-index:2;display:flex;justify-content:center;align-items:center;cursor:pointer;-webkit-backface-visibility:hidden}
+.fixed-social #share{width:30px;height:30px;fill:#fff;display:flex}
+.articleHD{font-size:28px;line-height:34px;}
+.author-box .share{display: none;}
 }
