@@ -132,6 +132,7 @@ ol,ul{list-style-type:none}
 #relatedSwiper .swiper-pagination-bullet-active{background:#ff4040;opacity:1}
 .relatednews_gallery .swiper-slide figcaption{padding:10px 0;}
 .relatednews_gallery .swiper-slide figcaption h3{font-size:16px;line-height:23px;font-weight:400;text-align: left;}
+.staticpage_wrapper p {margin-bottom: 10px;font-size: 16px;line-height: 1.5;font-weight: 400;}
 @media(max-width:767px){
 .adsCont{min-height:270px;}
 .container-fluid{margin-top:100px}
