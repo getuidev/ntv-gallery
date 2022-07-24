@@ -130,6 +130,8 @@ ol,ul{list-style-type:none}
 #relatedSwiper .swiper-pagination{bottom:0}
 #relatedSwiper .swiper-pagination-bullet{background:#fff;opacity:1;border-radius:0;width:15px;height:6px}
 #relatedSwiper .swiper-pagination-bullet-active{background:#ff4040;opacity:1}
+.relatednews_gallery .swiper-slide figcaption{padding:10px 0;}
+.relatednews_gallery .swiper-slide figcaption h3{font-size:16px;line-height:23px;font-weight:400;text-align: left;}
 @media(max-width:767px){
 .adsCont{min-height:270px;}
 .container-fluid{margin-top:100px}
