@@ -126,6 +126,10 @@ ol,ul{list-style-type:none}
 .tags_wrap ul{width:calc(100% - 140px);overflow:hidden;white-space:nowrap;overflow-x:auto;overflow-y:hidden;align-items:center;flex-wrap:wrap;display:flex}
 .tags_wrapper ul li{display:inline-flex;align-items:center;background:#fff;padding:0 10px;margin:0 5px 5px 0;height:27px}
 .tags_wrapper ul li a{color:#000;line-height:22px;font-size:14px}
+#relatedSwiper{padding-bottom:30px;margin-bottom:10px;}
+#relatedSwiper .swiper-pagination{bottom:0}
+#relatedSwiper .swiper-pagination-bullet{background:#fff;opacity:1;border-radius:0;width:15px;height:6px}
+#relatedSwiper .swiper-pagination-bullet-active{background:#ff4040;opacity:1}
 @media(max-width:767px){
 .adsCont{min-height:270px;}
 .container-fluid{margin-top:100px}
